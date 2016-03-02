@@ -1,0 +1,13 @@
+{
+  "name": "server-side-highcharts",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "create": "phantomjs node_modules/highcharts-export-server/phantomjs/highcharts-convert.js -infile input.js -callback callback.js"
+  },
+  "dependencies": {
+    "phantomjs": "~2.1.3",
+    "highcharts-export-server": "git+https://github.com/highcharts/highcharts-export-server.git"
+  }
+}
